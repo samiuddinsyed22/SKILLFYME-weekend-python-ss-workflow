@@ -2,7 +2,7 @@ name: Test and review Python workflow
 on: push
 jobs:
   job_python:
-    runs-on: self-hosted-runner-ss 
+    runs-on: self-hosted-ss 
     steps:
       - name: Checkout the code on runner VM
         uses: actions/checkout@v7
